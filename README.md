@@ -55,7 +55,9 @@ This project is deployed on InfinityFree (Free PHP + MySQL hosting).
 Note: HTTPS may not be enabled due to free hosting limitations.
 ________________________________________
 📸 Screenshots
-[lightTheme-mobile-dashborad](https://github.com/user-attachments/assets/487c0f8e-f46f-416c-a351-d80d110e870e)
+![lightTheme-mobile-dashborad](https://github.com/user-attachments/assets/487c0f8e-f46f-416c-a351-d80d110e870e)
+![mobile-login-page](https://github.com/user-attachments/assets/974da07d-7c1d-47a2-8d25-f28c7156b80b)
+![dark-mobile-dashboard](https://github.com/user-attachments/assets/86d8d0da-f75a-4a40-b1b2-a608cd58a0fa)
 
 ________________________________________
 🎓 Learning Outcomes
