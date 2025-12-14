@@ -26,39 +26,16 @@ Tools
 •	GitHub (Version control)
 ________________________________________
 📂 Project Structure
-assignment-tracker/
-├── index.html
-├── styles.css
-├── app.js
-├── login_signup/
-│   ├── login.html
-│   ├── login-style.css
-│   ├── login.js
-│   ├── register.html
-│   ├── register-style.css
-│   └── signup.js
-├── backend/
-│   ├── db.php
-│   ├── auth.php
-│   ├── login.php
-│   ├── signup.php
-│   ├── logout.php
-│   ├── get_user.php
-│   ├── submit_assignment.php
-│   ├── get_assignments.php
-│   ├── mark_completed.php
-│   └── delete_assignment.php
-└── README.md
+
+<img width="260" height="572" alt="{17F9C9C2-1A93-472C-B8E7-B0B4448B19A6}" src="https://github.com/user-attachments/assets/351ea44c-b1fe-4ef4-810b-83536028a8f0" />
+
 ________________________________________
 🌐 Deployment
 This project is deployed on InfinityFree (Free PHP + MySQL hosting).
 Note: HTTPS may not be enabled due to free hosting limitations.
 ________________________________________
 📸 Screenshots
-![lightTheme-mobile-dashborad](https://github.com/user-attachments/assets/487c0f8e-f46f-416c-a351-d80d110e870e)
-![mobile-login-page](https://github.com/user-attachments/assets/974da07d-7c1d-47a2-8d25-f28c7156b80b)
-![dark-mobile-dashboard](https://github.com/user-attachments/assets/86d8d0da-f75a-4a40-b1b2-a608cd58a0fa)
-
+https://drive.google.com/drive/folders/1EhD6-jPmXf3W8IarNjsO2zw33iBDKp3G?usp=sharing
 ________________________________________
 🎓 Learning Outcomes
 •	Hands on experience with CRUD operations
