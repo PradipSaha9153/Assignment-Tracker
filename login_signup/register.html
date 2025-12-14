@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="register-style.css">
+    
+    <script>
+        function validateForm(event) {
+            const password = document.querySelector('input[name="password"]').value;
+            const confPass = document.querySelector('input[name="confPass"]').value;
+            const email = document.querySelector('input[name="email"]').value;
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex for email validation
+
+            if (!emailRegex.test(email)) {
+                alert("Please enter a valid email address!");
+                event.preventDefault(); // Prevent form submission
+                return;
+            }
+
+            if (password !== confPass) {
+                alert("Passwords do not match!");
+                event.preventDefault(); // Prevent form submission
+                return;
+            }
+
+            // If validation passes, prevent default submission and call signup from auth.js
+            event.preventDefault();
+            signup(event);
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Background Animation -->
+    <div class="bubble-container">
+		<ul class="bg-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+    
+    <div class="wrapper">
+        <form id="signupForm">
+            <h2>Sign up</h2>
+            <div class="input-field">
+                <input type="text" name="fullName" maxlength="50" required>
+                <label>Enter full name</label>
+            </div>
+            <div class="input-field">
+                <input type="email" name="email" maxlength="320" required>
+                <label>Enter email</label>
+            </div>
+            <div class="input-field">
+                <input type="text" name="phoneNo" minlength="10" maxlength="10" required>
+                <label>Enter phone no.</label>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" minlength="6" maxlength="20" required>
+                <label>Enter your password</label>
+            </div>
+            <div class="input-field">
+                <input type="text" name="confPass" autocomplete="off" required>
+                <label>Enter confirm password</label>
+            </div>
+            <input class="button" type="submit" value="Sign up">
+            <div class="login">
+                <p>
+                    Already have an account?
+                    <a href="login.html">Login</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
